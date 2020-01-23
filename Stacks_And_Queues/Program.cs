@@ -20,11 +20,11 @@ namespace Stacks_And_Queues
 
             int pos = 0;
 
-            // while remove test word letters from the stack, check to se if 
+            // while removing test word letters from the stack, check to see if letters match
             while (aList.count > 0)
             {
                 ch = aList.pop().ToString();
-                if (ch != testWord.Substring(pos,1))
+                if (ch != testWord.Substring(pos,1)) // plindrome matching occurs here
                 {
                     isPalindrome = false;
                     break;
