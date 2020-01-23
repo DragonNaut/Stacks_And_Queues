@@ -8,12 +8,12 @@ namespace Stacks_And_Queues
         {
             CSTack aList = new CSTack();
             string ch;
-            string word = "sees";
+            string testWord = "ab";
             bool isPalindrome = true;
 
-            for (int x = 0; x < word.Length; x++)
+            for (int x = 0; x < testWord.Length; x++)
             {
-                aList.push(word.Substring(x,1));
+                aList.push(testWord.Substring(x,1));
 
             }
 
@@ -22,7 +22,7 @@ namespace Stacks_And_Queues
             while (aList.count > 0)
             {
                 ch = aList.pop().ToString();
-                if (ch != word.Substring(pos,1))
+                if (ch != testWord.Substring(pos,1))
                 {
                     isPalindrome = false;
                     break;
@@ -32,11 +32,11 @@ namespace Stacks_And_Queues
             
             if (isPalindrome)
             {
-                Console.WriteLine($"{word} is a palindrome.");
+                Console.WriteLine($"{testWord} is a palindrome.");
             }
             else
             {
-                    Console.WriteLine($"{word} is not a palindrome.");
+                    Console.WriteLine($"{testWord} is not a palindrome.");
 
             }
         }
