@@ -8,9 +8,10 @@ namespace Stacks_And_Queues
         {
             CSTack aList = new CSTack();
             string ch;
-            string testWord = "ab";
+            string testWord = "seed";
             bool isPalindrome = true;
 
+            // push test word on to the stack
             for (int x = 0; x < testWord.Length; x++)
             {
                 aList.push(testWord.Substring(x,1));
@@ -19,6 +20,7 @@ namespace Stacks_And_Queues
 
             int pos = 0;
 
+            // while remove test word letters from the stack, check to se if 
             while (aList.count > 0)
             {
                 ch = aList.pop().ToString();
