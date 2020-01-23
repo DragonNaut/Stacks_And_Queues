@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\codem\\source\\repos\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj": {}
+    "C:\\Users\\codem\\Source\\Repos\\DragonNaut\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj": {}
   },
   "projects": {
-    "C:\\Users\\codem\\source\\repos\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj": {
+    "C:\\Users\\codem\\Source\\Repos\\DragonNaut\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\codem\\source\\repos\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj",
+        "projectUniqueName": "C:\\Users\\codem\\Source\\Repos\\DragonNaut\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj",
         "projectName": "Stacks_And_Queues",
-        "projectPath": "C:\\Users\\codem\\source\\repos\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj",
+        "projectPath": "C:\\Users\\codem\\Source\\Repos\\DragonNaut\\Stacks_And_Queues\\Stacks_And_Queues\\Stacks_And_Queues.csproj",
         "packagesPath": "C:\\Users\\codem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\codem\\source\\repos\\Stacks_And_Queues\\Stacks_And_Queues\\obj\\",
+        "outputPath": "C:\\Users\\codem\\Source\\Repos\\DragonNaut\\Stacks_And_Queues\\Stacks_And_Queues\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\codem\\AppData\\Roaming\\NuGet\\NuGet.Config",
