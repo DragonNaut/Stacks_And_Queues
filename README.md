@@ -1,2 +1,2 @@
-# Stacks_And_Queues2.0
+# Stacks_And_Queues
 Stacks &amp; Queues Practice
