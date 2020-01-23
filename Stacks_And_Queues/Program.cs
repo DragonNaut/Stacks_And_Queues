@@ -24,7 +24,7 @@ namespace Stacks_And_Queues
             while (aList.count > 0)
             {
                 ch = aList.pop().ToString();
-                if (ch != testWord.Substring(pos,1)) // plindrome matching occurs here
+                if (ch != testWord.Substring(pos,1)) // palindrome matching occurs here
                 {
                     isPalindrome = false;
                     break;
